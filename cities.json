@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Cuiabá"
+    }, 
+	{
+      "id": 2,
+      "name": "São Paulo"
+    }, 
+	{
+      "id": 3,
+      "name": "Rio de Janeiro"
+    }, 
+	{
+      "id": 4,
+      "name": "Brasília"
+    }, 
+    {
+      "id": 5,
+      "name": "Pontes e Lacerda"
+    },
+    {
+      "id": 6,
+      "name": "Alta Floresta"
+    },
+    {
+      "id": 7,
+      "name": "Barra do Bugres"
+    },
+    {
+      "id": 8,
+      "name": "Barra do Garças"
+    },
+    {
+      "id": 9,
+      "name": "Aripuanã"
+    },
+    {
+      "id": 14,
+      "name": "Rondonópolis"
+    }, 
+  {
+    "id": 27,
+      "name": "Campo Grande"
+    },
+  {
+      "id": 28,
+      "name": "Curitiba"
+    },
+  {
+      "id": 29,
+      "name": "Florianópolis"
+    },
+  {
+      "id": 30,
+      "name": "Porto Alegre"
+    }
+]
