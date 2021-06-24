@@ -12,8 +12,7 @@ if not api_token:
 async def get_weather(client, city):
     api_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid={api_token}"
     response = await client.get(api_url)
-    weather = response.json()
-    return weather
+    return response.json()
 
 
 async def main(loop):
@@ -26,10 +25,10 @@ async def main(loop):
     async with AsyncClient() as session:
         for city in cities:
             requests.append(get_weather(session, city))
-        temps = await asyncio.gather(*requests)
-        return temps
+        return await asyncio.gather(*requests)
 
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(main(loop))
+    m = loop.run_until_complete(main(loop))
+    print(m)
